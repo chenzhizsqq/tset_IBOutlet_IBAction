@@ -11,6 +11,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var testText: UITextField!
 
+    @IBAction func testTextTouchDown(_ sender: UITextField) {
+        testText.text = "Touch Down"
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
